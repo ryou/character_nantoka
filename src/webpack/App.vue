@@ -82,12 +82,18 @@ export default {
       color: {
         hair: {
           hue: 130,
+          saturate: 100,
+          brightness: 100,
         },
         eye: {
           hue: 0,
+          saturate: 100,
+          brightness: 100,
         },
         body: {
           hue: 0,
+          saturate: 100,
+          brightness: 100,
         },
       }
     };

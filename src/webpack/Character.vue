@@ -37,13 +37,13 @@ export default {
     colorStyle: function() {
       return {
         hair: {
-          filter: `hue-rotate(${this.color.hair.hue}deg)`,
+          filter: `hue-rotate(${this.color.hair.hue}deg) saturate(${this.color.hair.saturate}%) brightness(${this.color.hair.brightness}%)`,
         },
         eye: {
-          filter: `hue-rotate(${this.color.eye.hue}deg)`,
+          filter: `hue-rotate(${this.color.eye.hue}deg) saturate(${this.color.eye.saturate}%) brightness(${this.color.eye.brightness}%)`,
         },
         body: {
-          filter: `hue-rotate(${this.color.body.hue}deg)`,
+          filter: `hue-rotate(${this.color.body.hue}deg) saturate(${this.color.body.saturate}%) brightness(${this.color.body.brightness}%)`,
         },
       };
     },
