@@ -8843,12 +8843,18 @@ exports.push([module.i, "#app[data-v-3df66db5]{position:relative;height:100%}.he
       color: {
         hair: {
           hue: 130,
+          saturate: 100,
+          brightness: 100,
         },
         eye: {
           hue: 0,
+          saturate: 100,
+          brightness: 100,
         },
         body: {
           hue: 0,
+          saturate: 100,
+          brightness: 100,
         },
       }
     };
@@ -8972,13 +8978,13 @@ exports.push([module.i, ".character[data-v-0c624486]{position:relative;width:150
     colorStyle: function() {
       return {
         hair: {
-          filter: `hue-rotate(${this.color.hair.hue}deg)`,
+          filter: `hue-rotate(${this.color.hair.hue}deg) saturate(${this.color.hair.saturate}%) brightness(${this.color.hair.brightness}%)`,
         },
         eye: {
-          filter: `hue-rotate(${this.color.eye.hue}deg)`,
+          filter: `hue-rotate(${this.color.eye.hue}deg) saturate(${this.color.eye.saturate}%) brightness(${this.color.eye.brightness}%)`,
         },
         body: {
-          filter: `hue-rotate(${this.color.body.hue}deg)`,
+          filter: `hue-rotate(${this.color.body.hue}deg) saturate(${this.color.body.saturate}%) brightness(${this.color.body.brightness}%)`,
         },
       };
     },
@@ -9215,6 +9221,23 @@ exports.push([module.i, ".editColor[data-v-302e820d]{text-align:center;padding:2
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function() {
@@ -9245,7 +9268,7 @@ exports.push([module.i, ".editColor[data-v-302e820d]{text-align:center;padding:2
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"editColor"},[_c('div',{staticClass:"formBox"},[_c('div',{staticClass:"boxTitle"},[_vm._v("色相")]),_vm._v(" "),_c('div',{staticClass:"boxMain"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.color[_vm.colorTarget].hue),expression:"color[colorTarget].hue"}],attrs:{"type":"range","min":"0","max":"359"},domProps:{"value":(_vm.color[_vm.colorTarget].hue)},on:{"__r":function($event){_vm.color[_vm.colorTarget].hue=$event.target.value}}})])])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"editColor"},[_c('div',[_c('div',{staticClass:"formBox"},[_c('div',{staticClass:"boxTitle"},[_vm._v("色相")]),_vm._v(" "),_c('div',{staticClass:"boxMain"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.color[_vm.colorTarget].hue),expression:"color[colorTarget].hue"}],attrs:{"type":"range","min":"0","max":"359"},domProps:{"value":(_vm.color[_vm.colorTarget].hue)},on:{"__r":function($event){_vm.color[_vm.colorTarget].hue=$event.target.value}}})])])]),_vm._v(" "),_c('div',[_c('div',{staticClass:"formBox"},[_c('div',{staticClass:"boxTitle"},[_vm._v("彩度")]),_vm._v(" "),_c('div',{staticClass:"boxMain"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.color[_vm.colorTarget].saturate),expression:"color[colorTarget].saturate"}],attrs:{"type":"range","min":"0","max":"200"},domProps:{"value":(_vm.color[_vm.colorTarget].saturate)},on:{"__r":function($event){_vm.color[_vm.colorTarget].saturate=$event.target.value}}})])])]),_vm._v(" "),_c('div',[_c('div',{staticClass:"formBox"},[_c('div',{staticClass:"boxTitle"},[_vm._v("明るさ")]),_vm._v(" "),_c('div',{staticClass:"boxMain"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.color[_vm.colorTarget].brightness),expression:"color[colorTarget].brightness"}],attrs:{"type":"range","min":"50","max":"150"},domProps:{"value":(_vm.color[_vm.colorTarget].brightness)},on:{"__r":function($event){_vm.color[_vm.colorTarget].brightness=$event.target.value}}})])])])])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
