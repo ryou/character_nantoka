@@ -1,0 +1,222 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-10_body_color {
+  background-image: url(body_color.png);
+  background-position: -150px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-11_body_color {
+  background-image: url(body_color.png);
+  background-position: -300px -400px;
+  width: 150px;
+  height: 200px;
+}
+.icon-12_body_color {
+  background-image: url(body_color.png);
+  background-position: -300px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-13_body_color {
+  background-image: url(body_color.png);
+  background-position: 0px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-14_body_color {
+  background-image: url(body_color.png);
+  background-position: -150px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-15_body_color {
+  background-image: url(body_color.png);
+  background-position: -300px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-16_body_color {
+  background-image: url(body_color.png);
+  background-position: -450px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-17_body_color {
+  background-image: url(body_color.png);
+  background-position: -450px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-18_body_color {
+  background-image: url(body_color.png);
+  background-position: 0px -400px;
+  width: 150px;
+  height: 200px;
+}
+.icon-19_body_color {
+  background-image: url(body_color.png);
+  background-position: -150px -400px;
+  width: 150px;
+  height: 200px;
+}
+.icon-1_body_color {
+  background-image: url(body_color.png);
+  background-position: 0px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-20_body_color {
+  background-image: url(body_color.png);
+  background-position: -450px -400px;
+  width: 150px;
+  height: 200px;
+}
+.icon-2_body_color {
+  background-image: url(body_color.png);
+  background-position: -600px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-3_body_color {
+  background-image: url(body_color.png);
+  background-position: -600px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-4_body_color {
+  background-image: url(body_color.png);
+  background-position: -600px -400px;
+  width: 150px;
+  height: 200px;
+}
+.icon-5_body_color {
+  background-image: url(body_color.png);
+  background-position: -750px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-6_body_color {
+  background-image: url(body_color.png);
+  background-position: -750px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-7_body_color {
+  background-image: url(body_color.png);
+  background-position: -750px -400px;
+  width: 150px;
+  height: 200px;
+}
+.icon-8_body_color {
+  background-image: url(body_color.png);
+  background-position: 0px -600px;
+  width: 150px;
+  height: 200px;
+}
+.icon-9_body_color {
+  background-image: url(body_color.png);
+  background-position: -150px -600px;
+  width: 150px;
+  height: 200px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-10_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-11_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-12_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-13_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-14_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-15_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-16_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-17_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-18_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-19_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-1_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-20_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-2_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-3_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-4_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-5_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-6_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-7_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-8_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-9_body_color {
+    background-image: url(body_color@2x.png);
+    background-size: 900px 800px;
+  }
+}

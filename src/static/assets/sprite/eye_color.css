@@ -1,0 +1,502 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-10_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -150px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-11_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -600px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-12_eye_color {
+  background-image: url(eye_color.png);
+  background-position: 0px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-13_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -150px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-14_eye_color {
+  background-image: url(eye_color.png);
+  background-position: 0px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-15_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -150px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-16_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -300px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-17_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -300px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-18_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -300px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-19_eye_color {
+  background-image: url(eye_color.png);
+  background-position: 0px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-1_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -150px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-20_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -300px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-21_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -450px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-22_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -450px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-23_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -450px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-24_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -450px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-25_eye_color {
+  background-image: url(eye_color.png);
+  background-position: 0px -400px;
+  width: 150px;
+  height: 100px;
+}
+.icon-26_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -150px -400px;
+  width: 150px;
+  height: 100px;
+}
+.icon-27_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -300px -400px;
+  width: 150px;
+  height: 100px;
+}
+.icon-28_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -450px -400px;
+  width: 150px;
+  height: 100px;
+}
+.icon-29_eye_color {
+  background-image: url(eye_color.png);
+  background-position: 0px -500px;
+  width: 150px;
+  height: 100px;
+}
+.icon-2_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -150px -500px;
+  width: 150px;
+  height: 100px;
+}
+.icon-30_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -300px -500px;
+  width: 150px;
+  height: 100px;
+}
+.icon-31_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -450px -500px;
+  width: 150px;
+  height: 100px;
+}
+.icon-32_eye_color {
+  background-image: url(eye_color.png);
+  background-position: 0px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-33_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -600px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-34_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -600px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-35_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -600px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-36_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -600px -400px;
+  width: 150px;
+  height: 100px;
+}
+.icon-37_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -600px -500px;
+  width: 150px;
+  height: 100px;
+}
+.icon-38_eye_color {
+  background-image: url(eye_color.png);
+  background-position: 0px -600px;
+  width: 150px;
+  height: 100px;
+}
+.icon-39_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -150px -600px;
+  width: 150px;
+  height: 100px;
+}
+.icon-3_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -300px -600px;
+  width: 150px;
+  height: 100px;
+}
+.icon-40_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -450px -600px;
+  width: 150px;
+  height: 100px;
+}
+.icon-41_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -600px -600px;
+  width: 150px;
+  height: 100px;
+}
+.icon-42_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -750px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-43_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -750px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-44_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -750px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-45_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -750px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-46_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -750px -400px;
+  width: 150px;
+  height: 100px;
+}
+.icon-47_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -750px -500px;
+  width: 150px;
+  height: 100px;
+}
+.icon-48_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -750px -600px;
+  width: 150px;
+  height: 100px;
+}
+.icon-4_eye_color {
+  background-image: url(eye_color.png);
+  background-position: 0px -700px;
+  width: 150px;
+  height: 100px;
+}
+.icon-5_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -150px -700px;
+  width: 150px;
+  height: 100px;
+}
+.icon-6_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -300px -700px;
+  width: 150px;
+  height: 100px;
+}
+.icon-7_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -450px -700px;
+  width: 150px;
+  height: 100px;
+}
+.icon-8_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -600px -700px;
+  width: 150px;
+  height: 100px;
+}
+.icon-9_eye_color {
+  background-image: url(eye_color.png);
+  background-position: -750px -700px;
+  width: 150px;
+  height: 100px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-10_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-11_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-12_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-13_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-14_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-15_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-16_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-17_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-18_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-19_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-1_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-20_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-21_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-22_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-23_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-24_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-25_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-26_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-27_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-28_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-29_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-2_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-30_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-31_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-32_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-33_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-34_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-35_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-36_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-37_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-38_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-39_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-3_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-40_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-41_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-42_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-43_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-44_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-45_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-46_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-47_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-48_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-4_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-5_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-6_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-7_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-8_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+  .icon-9_eye_color {
+    background-image: url(eye_color@2x.png);
+    background-size: 900px 800px;
+  }
+}
