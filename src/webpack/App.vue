@@ -173,7 +173,8 @@ export default {
 }
 
 .header {
-  background: #fff;
+  background: #2c3e50;
+  color: #fff;
   box-shadow: rgba(0, 0, 0, .2) 0 0 10px;
 
   display: table;
@@ -232,10 +233,13 @@ export default {
   list-style: none;
 
   height: 50px;
-  box-shadow: rgba(0, 0, 0, .2) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, .15) 0 5px 10px;
 
   position: relative;
   z-index: 10;
+
+  background: #2c3e50;
+  color: #fff;
 }
 .parts-or-color > li {
   height: 100%;
@@ -252,7 +256,7 @@ export default {
   cursor: pointer;
 }
 .parts-or-color > li.is-active {
-  border-bottom-color: #000;
+  border-bottom-color: #fff;
 }
 
 .edit-wrapper {
