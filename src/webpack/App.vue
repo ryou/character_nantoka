@@ -24,12 +24,14 @@
             </div>
           </div>
         </div>
-        <ul class="tab-list">
-          <li v-for="target in partsMaster" :class="{'is-active': showEdit === target}" @click="activateEdit(target)">
-            <i class="icon material-icons">{{targetIconMap[target]}}</i>
-            <div class="title">{{targetTitleMap[target]}}</div>
-          </li>
-        </ul>
+        <div class="tab-list-wrapper">
+          <ul class="tab-list">
+            <li v-for="target in partsMaster" :class="{'is-active': showEdit === target}" @click="activateEdit(target)">
+              <i class="icon material-icons">{{targetIconMap[target]}}</i>
+              <div class="title">{{targetTitleMap[target]}}</div>
+            </li>
+          </ul>
+        </div>
       </div>
 
     </div>
@@ -267,13 +269,18 @@ export default {
   -webkit-overflow-scrolling: touch;
 }
 
-.tab-list {
+.tab-list-wrapper {
   flex-shrink: 0;
   flex-grow: 0;
 
+  background: #ecf0f1;
+}
+.tab-list {
   display: table;
   table-layout: fixed;
   width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .tab-list > li {
   display: table-cell;
@@ -281,12 +288,12 @@ export default {
   text-align: center;
   height: 60px;
 
-  background: #ecf0f1;
-
   cursor: pointer;
-}
-.tab-list > li:not(:last-child) {
+
   border-right: 1px solid #ddd;
+}
+.tab-list > li:first-child {
+  border-left: 1px solid #ddd;
 }
 .tab-list > li.is-active {
   background: #34495e;
