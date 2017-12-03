@@ -8831,16 +8831,16 @@ exports.push([module.i, "#app[data-v-3df66db5]{position:relative;height:100%}.he
         'face',
       ],
       parts: {
-        hairBack: 1,
-        body: 1,
+        hairBack: 10,
+        body: 10,
         head: 1,
         face: 1,
-        eye: 1,
+        eye: 2,
         hairFront: 1,
       },
       color: {
         hair: {
-          hue: 0,
+          hue: 130,
         },
         eye: {
           hue: 0,
