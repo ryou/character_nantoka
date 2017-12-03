@@ -1,0 +1,122 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-10_hair_front {
+  background-image: url(hair_front.png);
+  background-position: 0px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-1_hair_front {
+  background-image: url(hair_front.png);
+  background-position: -150px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-2_hair_front {
+  background-image: url(hair_front.png);
+  background-position: -300px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-3_hair_front {
+  background-image: url(hair_front.png);
+  background-position: 0px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-4_hair_front {
+  background-image: url(hair_front.png);
+  background-position: -150px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-5_hair_front {
+  background-image: url(hair_front.png);
+  background-position: -300px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-6_hair_front {
+  background-image: url(hair_front.png);
+  background-position: -450px 0px;
+  width: 150px;
+  height: 200px;
+}
+.icon-7_hair_front {
+  background-image: url(hair_front.png);
+  background-position: -450px -200px;
+  width: 150px;
+  height: 200px;
+}
+.icon-8_hair_front {
+  background-image: url(hair_front.png);
+  background-position: 0px -400px;
+  width: 150px;
+  height: 200px;
+}
+.icon-9_hair_front {
+  background-image: url(hair_front.png);
+  background-position: -150px -400px;
+  width: 150px;
+  height: 200px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-10_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-1_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-2_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-3_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-4_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-5_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-6_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-7_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-8_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+  .icon-9_hair_front {
+    background-image: url(hair_front@2x.png);
+    background-size: 600px 600px;
+  }
+}

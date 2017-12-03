@@ -1,0 +1,172 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-10_face {
+  background-image: url(face.png);
+  background-position: -150px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-11_face {
+  background-image: url(face.png);
+  background-position: -300px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-12_face {
+  background-image: url(face.png);
+  background-position: 0px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-13_face {
+  background-image: url(face.png);
+  background-position: -150px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-14_face {
+  background-image: url(face.png);
+  background-position: 0px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-15_face {
+  background-image: url(face.png);
+  background-position: -150px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-1_face {
+  background-image: url(face.png);
+  background-position: -300px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-2_face {
+  background-image: url(face.png);
+  background-position: 0px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-3_face {
+  background-image: url(face.png);
+  background-position: -300px -200px;
+  width: 150px;
+  height: 100px;
+}
+.icon-4_face {
+  background-image: url(face.png);
+  background-position: 0px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-5_face {
+  background-image: url(face.png);
+  background-position: -150px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-6_face {
+  background-image: url(face.png);
+  background-position: -300px -300px;
+  width: 150px;
+  height: 100px;
+}
+.icon-7_face {
+  background-image: url(face.png);
+  background-position: -450px 0px;
+  width: 150px;
+  height: 100px;
+}
+.icon-8_face {
+  background-image: url(face.png);
+  background-position: -450px -100px;
+  width: 150px;
+  height: 100px;
+}
+.icon-9_face {
+  background-image: url(face.png);
+  background-position: -450px -200px;
+  width: 150px;
+  height: 100px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-10_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-11_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-12_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-13_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-14_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-15_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-1_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-2_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-3_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-4_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-5_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-6_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-7_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-8_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+  .icon-9_face {
+    background-image: url(face@2x.png);
+    background-size: 600px 400px;
+  }
+}
