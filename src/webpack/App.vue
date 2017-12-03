@@ -168,9 +168,7 @@ export default {
 
 <style scoped>
 #app {
-  display: flex;
-  flex-direction: column;
-
+  position: relative;
   height: 100%;
 }
 
@@ -181,7 +179,8 @@ export default {
   display: table;
   width: 100%;
 
-  flex-shrink: 0;
+  position: absolute;
+  top: 0; left: 0;
 }
 .header .leftBtn,
 .header .rightBtn {
@@ -197,15 +196,12 @@ export default {
 }
 
 .main {
-  flex-grow: 1;
-
-  display: flex;
-  flex-direction: column;
+  padding-top: 50px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .character {
-  flex-shrink: 0;
-
   position: relative;
   width: 150px;
   height: 200px;
@@ -218,30 +214,18 @@ export default {
 }
 
 .edit-area {
-  flex-grow: 1;
-  flex-shrink: 1;
-
-  display: flex;
-  flex-direction: column;
+  height: calc(100% - 200px);
 }
 
 .area-contents {
-  flex-shrink: 1;
-  flex-grow: 1;
-
-  display: flex;
-  flex-direction: column;
+  height: calc(100% - 60px);
 }
 
 .area-content {
-  display: flex;
-  flex-direction: column;
+  height: 100%;
 }
 
 .parts-or-color {
-  flex-shrink: 0;
-  flex-grow: 0;
-
   display: flex;
   justify-content: center;
 
@@ -272,8 +256,7 @@ export default {
 }
 
 .edit-wrapper {
-  flex-shrink: 1;
-  flex-grow: 1;
+  height: calc(100% - 50px);
 
   overflow-x: hidden;
   overflow-y: auto;
