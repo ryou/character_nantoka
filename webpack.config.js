@@ -25,6 +25,11 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js'
+    },
+  },
   // webpack-dev-serverのオプション
   // 詳細は以下
   // https://webpack.js.org/configuration/dev-server/#devserver
