@@ -44,10 +44,10 @@ module.exports = {
 
 // 以下の記述はvue-cliで使用出来るtemplateを参考にした
 // https://github.com/vuejs-templates/webpack-simple/blob/master/template/webpack.config.js
-// if (process.env.NODE_ENV === 'production') {
-//   module.exports.plugins = (module.exports.plugins || []).concat([
-//     new webpack.optimize.UglifyJsPlugin({
-//
-//     })
-//   ]);
-// }
+if (process.env.NODE_ENV === 'production') {
+  module.exports.plugins = (module.exports.plugins || []).concat([
+    new webpack.optimize.UglifyJsPlugin({
+
+    })
+  ]);
+}
