@@ -160,3 +160,8 @@ img {
 .tab-list > li .title {
   font-size: 12px;
 }
+
+// component style
+@import "../Character/style";
+@import "../EditColor/style";
+@import "../EditList/style";
