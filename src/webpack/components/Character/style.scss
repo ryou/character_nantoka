@@ -1,0 +1,9 @@
+.character {
+  position: relative;
+  width: 150px;
+  height: 200px;
+}
+.character .parts {
+  position: absolute;
+  top: 0; left: 0;
+}

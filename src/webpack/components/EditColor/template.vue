@@ -27,44 +27,5 @@
   </div>
 </template>
 
-
-<script>
-export default {
-  data: function() {
-    return {};
-  },
-  props: [
-    'target',
-    'parts',
-    'color',
-  ],
-  methods: {
-  },
-  computed: {
-    colorTarget: function() {
-      let target = this.target;
-      if (target === 'hairFront' || target === 'hairBack') {
-        target = 'hair';
-      }
-
-      return target;
-    },
-  },
-}
-</script>
-
-<style scoped>
-.editColor {
-  text-align: center;
-  padding: 20px;
-}
-.formBox {
-  display: inline-block;
-  text-align: left;
-}
-.boxTitle {
-
-}
-.boxMain {
-}
-</style>
+<script src="./script.js"></script>
+<style lang="scss" src="./style.scss"></style>

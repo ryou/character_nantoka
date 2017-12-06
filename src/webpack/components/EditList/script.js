@@ -1,19 +1,5 @@
-<template>
-  <div class="edit-list">
-    <div class="body">
-      <ul>
-        <li v-for="character in characters" @click="selectCharacter(character)">
-          <character-component :parts="character.parts" :color="character.color"></character-component>
-        </li>
-      </ul>
-    </div>
-  </div>
-</template>
-
-
-<script>
-import partsMaster from './data/parts.js';
-import CharacterComponent from './Character.vue';
+import partsMaster from '../../data/parts.js';
+import CharacterComponent from '../Character/template.vue';
 
 export default {
   data: function() {
@@ -62,29 +48,3 @@ export default {
     'character-component': CharacterComponent,
   },
 }
-</script>
-
-<style scoped>
-.edit-list {
-}
-.body {
-  padding: 30px;
-  height: 100%;
-  box-sizing: border-box;
-
-  overflow-x: hidden;
-  overflow-y: auto;
-  background: #fff;
-}
-ul {
-  list-style: none;
-  overflow: hidden;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-ul > li {
-  cursor: pointer;
-}
-</style>

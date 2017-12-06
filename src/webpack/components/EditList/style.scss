@@ -1,0 +1,22 @@
+.edit-list {
+}
+.body {
+  padding: 30px;
+  height: 100%;
+  box-sizing: border-box;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #fff;
+}
+ul {
+  list-style: none;
+  overflow: hidden;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul > li {
+  cursor: pointer;
+}
