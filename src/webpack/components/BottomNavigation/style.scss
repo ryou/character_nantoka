@@ -1,0 +1,34 @@
+.BottomNavigation {
+  background: #ecf0f1;
+}
+.BottomNavigation_navs {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.BottomNavigation_nav {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 60px;
+
+  cursor: pointer;
+
+  border-right: 1px solid #ddd;
+
+  &:first-child {
+    border-left: 1px solid #ddd;
+  }
+  &.-active {
+    background: #34495e;
+    color: #fff;
+  }
+}
+.BottomNavigation_navIcon {
+
+}
+.BottomNavigation_navTitle {
+  font-size: 12px;
+}

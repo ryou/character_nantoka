@@ -1,26 +1,44 @@
 import CharacterComponent from '../Character/template.vue';
 import EditListComponent from '../EditList/template.vue';
 import EditColorComponent from '../EditColor/template.vue';
+import BottomNavigationComponent from '../BottomNavigation/template.vue';
 import partsMaster from '../../data/parts.js';
 
 export default {
   data: function() {
     return {
-      targetIconMap: {
-        hairFront: 'face',
-        hairBack: 'face',
-        eye: 'remove_red_eye',
-        body: 'accessibility',
-        face: 'mood',
-      },
-      targetTitleMap: {
-        hairFront: '前髪',
-        hairBack: '後髪',
-        eye: '目',
-        body: '服',
-        face: '表情',
-      },
-      showEdit: 'hairFront',
+      bottomNavs: [
+        {
+          id: 'hairFront',
+          icon: 'face',
+          title: '前髪',
+          active: true,
+        },
+        {
+          id: 'hairBack',
+          icon: 'face',
+          title: '後髪',
+          active: false,
+        },
+        {
+          id: 'eye',
+          icon: 'remove_red_eye',
+          title: '目',
+          active: false,
+        },
+        {
+          id: 'body',
+          icon: 'accessibility',
+          title: '服',
+          active: false,
+        },
+        {
+          id: 'face',
+          icon: 'mood',
+          title: '表情',
+          active: false,
+        },
+      ],
       showEditType: 'parts',
       partsMaster: [
         'hairFront',
@@ -70,6 +88,13 @@ export default {
     },
   },
   computed: {
+    showEdit: function() {
+      const activeNav = this.bottomNavs.find((nav) => {
+        return nav.active;
+      });
+
+      return activeNav.id;
+    },
     partsClass: function() {
       return {
         hairBack: `icon-${this.parts.hairBack}_hair_back`,
@@ -100,5 +125,6 @@ export default {
     'character-component': CharacterComponent,
     'edit-list-component': EditListComponent,
     'edit-color-component': EditColorComponent,
+    'bottom-navigation-component': BottomNavigationComponent,
   },
 }

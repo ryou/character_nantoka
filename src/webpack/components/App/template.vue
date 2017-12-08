@@ -27,12 +27,7 @@
           </div>
         </div>
         <div class="App_tabListWrapper">
-          <ul class="App_tabList">
-            <li v-for="target in partsMaster" class="App_tabItem" :class="{'is-active': showEdit === target}" @click="activateEdit(target)">
-              <i class="App_tabIcon material-icons">{{targetIconMap[target]}}</i>
-              <div class="App_tabTitle">{{targetTitleMap[target]}}</div>
-            </li>
-          </ul>
+          <bottom-navigation-component :navs="bottomNavs"></bottom-navigation-component>
         </div>
       </div>
 

@@ -83,41 +83,7 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
-
 .App_tabListWrapper {
   flex-shrink: 0;
   flex-grow: 0;
-
-  background: #ecf0f1;
-}
-.App_tabList {
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.App_tabItem {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  height: 60px;
-
-  cursor: pointer;
-
-  border-right: 1px solid #ddd;
-
-  &:first-child {
-    border-left: 1px solid #ddd;
-  }
-  &.is-active {
-    background: #34495e;
-    color: #fff;
-  }
-}
-.App_tabIcon {
-
-}
-.App_tabTitle {
-  font-size: 12px;
 }
