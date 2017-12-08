@@ -1,5 +1,5 @@
 <template>
-  <div class="Character">
+  <div class="Character" :class="rootClass">
     <div class="Character_parts" :class="partsClass.hairBack" :style="colorStyle.hair"></div>
     <div class="Character_parts" :class="partsClass.body"></div>
     <div class="Character_parts" :class="partsClass.bodyColor" :style="colorStyle.body"></div>

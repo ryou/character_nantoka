@@ -5,6 +5,16 @@
   position: relative;
   width: 150px;
   height: 200px;
+
+  &.-small {
+    width: 120px;
+    height: 160px;
+
+    .Character_parts {
+      transform-origin: left top;
+      transform: scale(0.8);
+    }
+  }
 }
 .Character_parts {
   position: absolute;

@@ -2,10 +2,18 @@ export default {
   data: function() {
     return {};
   },
-  props: [
-    'parts',
-    'color',
-  ],
+  props: {
+    parts: {
+      type: Object,
+    },
+    color: {
+      type: Object,
+    },
+    small: {
+      type: Boolean,
+      default: false,
+    },
+  },
   computed: {
     partsClass: function() {
       return {
@@ -30,6 +38,11 @@ export default {
         body: {
           filter: `hue-rotate(${this.color.body.hue}deg) saturate(${this.color.body.saturate}%) brightness(${this.color.body.brightness}%)`,
         },
+      };
+    },
+    rootClass: function() {
+      return {
+        '-small': this.small,
       };
     },
   },

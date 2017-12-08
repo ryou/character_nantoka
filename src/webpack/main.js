@@ -7,3 +7,5 @@ new Vue({
     return h(AppComponent);
   }
 });
+
+import './assets/scss/style.scss';

@@ -10,3 +10,12 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+
+// AndroidのPull to Refreshが発生しないようにする
+// https://qiita.com/zeriyoshi/items/d73d6712400d75dc8bea
+html {
+  overflow-y: hidden;
+}
+body {
+  overflow: auto;
+}

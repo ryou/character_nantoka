@@ -36,4 +36,3 @@
 </template>
 
 <script src="./script.js"></script>
-<style lang="scss" src="../../assets/scss/style.scss"></style>

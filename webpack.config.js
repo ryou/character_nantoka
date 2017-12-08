@@ -1,5 +1,27 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
+
+
+/* 環境設定ロード
+----------------------------------------------------------*/
+const env = {
+  host: 'localhost',
+  port: 8080,
+};
+try {
+  const localEnv = require('./.env');
+  Object.assign(env, localEnv);
+} catch(e) {
+  switch (e.code) {
+    case 'MODULE_NOT_FOUND':
+      console.log('.envファイルが存在しません。デフォルトの設定で起動します。');
+      break;
+    default:
+      throw e;
+      break;
+  }
+}
+
 
 module.exports = {
   entry: {
@@ -84,7 +106,10 @@ module.exports = {
 
     // webpackによりコンパイルされたファイルが配置されるディレクトリ
     // 「publicPath: '/assets/'」の場合「http://hoge.com/assets/bundle.js」みたいな感じで出力される
-    publicPath: '/assets/'
+    publicPath: '/assets/',
+
+    host: env.host || 'localhost',
+    port: env.port || 8080,
   }
 };
 
