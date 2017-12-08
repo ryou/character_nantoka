@@ -8,11 +8,17 @@ export default {
       color: {},
     };
   },
-  props: [
-    'target',
-    'initialParts',
-    'initialColor',
-  ],
+  props: {
+    target: {
+      type: String,
+    },
+    initialParts: {
+      type: Object,
+    },
+    initialColor: {
+      type: Object,
+    },
+  },
   methods: {
     selectCharacter: function(character) {
       this.$emit('change-character', character)

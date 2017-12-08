@@ -2,11 +2,17 @@ export default {
   data: function() {
     return {};
   },
-  props: [
-    'target',
-    'parts',
-    'color',
-  ],
+  props: {
+    target: {
+      type: String,
+    },
+    parts: {
+      type: Object,
+    },
+    color: {
+      type: Object,
+    },
+  },
   methods: {
   },
   computed: {
