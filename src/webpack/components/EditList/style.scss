@@ -1,6 +1,6 @@
-.edit-list {
+.EditList {
 }
-.body {
+.EditList_body {
   padding: 30px;
   height: 100%;
   box-sizing: border-box;
@@ -9,7 +9,7 @@
   overflow-y: auto;
   background: #fff;
 }
-ul {
+.EditList_samples {
   list-style: none;
   overflow: hidden;
 
@@ -17,6 +17,6 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
 }
-ul > li {
+.EditList_sample {
   cursor: pointer;
 }

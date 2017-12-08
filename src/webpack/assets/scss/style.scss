@@ -1,0 +1,21 @@
+@import "./imports/init";
+
+@import "./imports/reset";
+@import "./imports/base";
+
+// common style
+.material-icons {
+  vertical-align: middle;
+}
+.l-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+// component style
+@import "../../components/App/style";
+@import "../../components/Character/style";
+@import "../../components/EditColor/style";
+@import "../../components/EditList/style";

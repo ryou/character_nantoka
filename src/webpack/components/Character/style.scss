@@ -1,9 +1,12 @@
-.character {
+.Character {
+  display: inline-block;
+  vertical-align: middle;
+
   position: relative;
   width: 150px;
   height: 200px;
 }
-.character .parts {
+.Character_parts {
   position: absolute;
   top: 0; left: 0;
 }
