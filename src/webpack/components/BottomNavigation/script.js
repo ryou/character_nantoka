@@ -5,6 +5,11 @@ export default {
   props: {
     navs: {
       type: Array,
+      default: {
+        icon: '',
+        title: '',
+        active: false,
+      },
     },
   },
   methods: {
