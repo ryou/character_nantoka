@@ -1,8 +1,3 @@
-import CharacterComponent from '../Character/template.vue';
-import EditListComponent from '../EditList/template.vue';
-import EditColorComponent from '../EditColor/template.vue';
-import BottomNavigationComponent from '../BottomNavigation/template.vue';
-import IconComponent from '../Icon/template.vue';
 import partsMaster from '../../data/parts.js';
 
 export default {
@@ -121,12 +116,5 @@ export default {
         },
       };
     },
-  },
-  components: {
-    'character-component': CharacterComponent,
-    'edit-list-component': EditListComponent,
-    'edit-color-component': EditColorComponent,
-    'bottom-navigation-component': BottomNavigationComponent,
-    'icon-component': IconComponent,
   },
 }

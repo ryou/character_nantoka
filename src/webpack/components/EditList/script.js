@@ -1,5 +1,4 @@
 import partsMaster from '../../data/parts.js';
-import CharacterComponent from '../Character/template.vue';
 
 export default {
   data: function() {
@@ -49,8 +48,5 @@ export default {
 
       return characters;
     },
-  },
-  components: {
-    'character-component': CharacterComponent,
   },
 }
