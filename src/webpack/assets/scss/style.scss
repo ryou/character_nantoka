@@ -4,9 +4,6 @@
 @import "./imports/base";
 
 // common style
-.material-icons {
-  vertical-align: middle;
-}
 .l-container {
   max-width: 960px;
   margin: 0 auto;
@@ -20,3 +17,4 @@
 @import "../../components/EditColor/style";
 @import "../../components/EditList/style";
 @import "../../components/BottomNavigation/style";
+@import "../../components/Icon/style";

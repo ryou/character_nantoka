@@ -2,10 +2,12 @@
   <div class="BottomNavigation">
     <ul class="BottomNavigation_navs">
       <li v-for="nav in navs" class="BottomNavigation_nav" :class="{'-active': nav.active}" @click="clickNav(nav)">
-        <i
+        <div
           v-if="nav.icon !== undefined && nav.icon !== ''"
-          class="BottomNavigation_navIcon material-icons"
-        >{{ nav.icon }}</i>
+          class="BottomNavigation_navIcon"
+        >
+          <icon-component>{{ nav.icon }}</icon-component>
+        </div>
         <div
           v-if="nav.title !== undefined && nav.title !== ''"
           class="BottomNavigation_navTitle"

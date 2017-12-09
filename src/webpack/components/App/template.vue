@@ -2,7 +2,7 @@
   <div id="app" class="App">
     <div class="App_header">
       <div class="App_headerLeft">
-        <i class="material-icons">menu</i>
+        <icon-component>menu</icon-component>
       </div>
       <div class="App_headerTitle">キャラクターなんとか機</div>
       <div class="App_headerRight"></div>

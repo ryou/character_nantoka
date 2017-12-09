@@ -1,3 +1,5 @@
+import IconComponent from '../Icon/template.vue';
+
 export default {
   data: function() {
     return {};
@@ -20,5 +22,8 @@ export default {
 
       nav.active = true;
     }
+  },
+  components: {
+    'icon-component': IconComponent,
   },
 }
