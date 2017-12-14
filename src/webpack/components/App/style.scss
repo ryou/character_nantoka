@@ -42,39 +42,6 @@
 .App_areaContent {
   height: 100%;
 }
-.App_partsOrColor {
-  display: flex;
-  justify-content: center;
-
-  list-style: none;
-
-  height: 50px;
-  box-shadow: rgba(0, 0, 0, .15) 0 5px 10px;
-
-  position: relative;
-  z-index: 10;
-
-  background: #2c3e50;
-  color: #fff;
-}
-.App_pocItem {
-  height: 100%;
-  padding: 10px;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  cursor: pointer;
-
-  &.is-active {
-    border-bottom-color: #fff;
-  }
-}
 
 .App_editWrapper {
   height: calc(100% - 50px);
