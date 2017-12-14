@@ -35,7 +35,6 @@ export default {
           active: false,
         },
       ],
-      showEditType: 'parts',
       partsMaster: [
         'hairFront',
         'hairBack',
@@ -77,10 +76,6 @@ export default {
     },
     activateEdit: function(target) {
       this.showEdit = target;
-      this.showEditType = 'parts';
-    },
-    changeEditType: function(type) {
-      this.showEditType = type;
     },
   },
   computed: {

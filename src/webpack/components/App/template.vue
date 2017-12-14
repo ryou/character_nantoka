@@ -15,15 +15,22 @@
 
       <div class="App_editArea">
         <div class="App_areaContents">
-          <div class="App_areaContent" v-for="target in partsMaster" v-if="showEdit === target">
-            <ul class="App_partsOrColor">
-              <li class="App_pocItem" :class="{'is-active': showEditType === 'parts'}" @click="changeEditType('parts')">着せ替え</li>
-              <li class="App_pocItem" v-if="target !== 'face'" :class="{'is-active': showEditType === 'color'}" @click="changeEditType('color')">色変更</li>
-            </ul>
-            <div class="App_editWrapper">
-              <edit-list-component v-if="showEditType === 'parts'" :target="target" :initial-parts="parts" :initial-color="color" @change-character="changeCharacter"></edit-list-component>
-              <edit-color-component v-if="showEditType === 'color'" :target="target" :parts="parts" :color="color"></edit-color-component>
-            </div>
+          <div class="App_areaContent" v-for="(target, key) in partsMaster" v-if="showEdit === target" :key="key">
+            <tab-component
+              :tabs="[
+                'tab01',
+                'tab02',
+              ]"
+            >
+              <template scope="props">
+                <div v-if="props.active === 0">
+                  <edit-list-component :target="target" :initial-parts="parts" :initial-color="color" @change-character="changeCharacter"></edit-list-component>
+                </div>
+                <div v-if="props.active === 1">
+                  <edit-color-component :target="target" :parts="parts" :color="color"></edit-color-component>
+                </div>
+              </template>
+            </tab-component>
           </div>
         </div>
         <div class="App_tabListWrapper">

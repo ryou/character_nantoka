@@ -8,12 +8,14 @@ import EditListComponent from './components/EditList/template.vue';
 import EditColorComponent from './components/EditColor/template.vue';
 import BottomNavigationComponent from './components/BottomNavigation/template.vue';
 import IconComponent from './components/Icon/template.vue';
+import TabComponent from './components/Tab/template.vue';
 
 Vue.component('character-component', CharacterComponent);
 Vue.component('edit-list-component', EditListComponent);
 Vue.component('edit-color-component', EditColorComponent);
 Vue.component('bottom-navigation-component', BottomNavigationComponent);
 Vue.component('icon-component', IconComponent);
+Vue.component('tab-component', TabComponent);
 
 
 /* 起動処理
