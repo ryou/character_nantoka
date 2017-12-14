@@ -42,6 +42,27 @@ export default {
         'body',
         'face',
       ],
+      tabs: {
+        hairFront: [
+          '着せ替え',
+          '色指定',
+        ],
+        hairBack: [
+          '着せ替え',
+          '色指定',
+        ],
+        eye: [
+          '着せ替え',
+          '色指定',
+        ],
+        body: [
+          '着せ替え',
+          '色指定',
+        ],
+        face: [
+          '着せ替え',
+        ],
+      },
       parts: {
         hairBack: 10,
         body: 10,

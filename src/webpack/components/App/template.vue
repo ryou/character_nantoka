@@ -16,13 +16,8 @@
       <div class="App_editArea">
         <div class="App_areaContents">
           <div class="App_areaContent" v-for="(target, key) in partsMaster" v-if="showEdit === target" :key="key">
-            <tab-component
-              :tabs="[
-                'tab01',
-                'tab02',
-              ]"
-            >
-              <template scope="props">
+            <tab-component :tabs="tabs[target]">
+              <template slot-scope="props">
                 <div v-if="props.active === 0">
                   <edit-list-component :target="target" :initial-parts="parts" :initial-color="color" @change-character="changeCharacter"></edit-list-component>
                 </div>
